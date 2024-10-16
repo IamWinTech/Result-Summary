@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+/* @import url(link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'); */
+body{
+    background-color: rgba(197, 197, 197, 0.253);
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: white;
+    /* border: 2px solid black; */
+    /* box-shadow: 20 7px 75px solid black; */
+    padding: 40px 40px;
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: rgb(17, 0, 255);
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    /* margin-left: 5px; */
+    /* justify-content: center; */
+    align-items: center;
+    padding: 60px;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.white{
+    background-color: #fff;
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    /* margin-left: 2px; */ 
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 50px 70px;
+    padding-left: 50px;
+    /* text-align: center; */
+    /* display: grid; */
+    /* gap: 50px; */
+}
+.blue h3{
+    color: rgb(224, 224, 224);
+}
+.circle{
+    background: linear-gradient(rgb(0, 0, 168), rgba(38, 0, 255, 0.356));
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    padding: 40px 10px;
+}
+.circle h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.circle h5{
+    color: rgb(224, 224, 224);
+}
+.blue h2{
+    color: #fff;
+}
+.blue p{
+    color: rgb(224, 224, 224);
+}
+.box{
+    display: grid;
+    gap: 20px;
+}
+.box1{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(255, 232, 232);
+    border-radius: 08px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 20px;
+    /* justify-content: end; */
+    gap: 80px;
+}
+.box2{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(255, 248, 203);
+    border-radius: 08px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 20px;
+    gap: 85px;
+}
+.box3{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(240, 255, 240);
+    border-radius: 08px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 20px;
+    gap: 90px;
+}
+.box4{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(231, 237, 255);
+    border-radius: 08px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 20px;
+    gap: 90px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.ic{
+    color: red;
+    font-size: 1.5rem;
+}
+.box1 p{
+    color: red;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+span{
+    color: gray;
+}
+.ic2{
+    color: rgb(255, 238, 0);
+    font-size: 1.5rem;
+}
+.box2 p{
+    color: rgb(252, 235, 0);
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+.ic3{
+    color: green;
+    font-size: 1.5rem;
+}
+.box3 p{
+    color: green;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+.box3 h4{
+    margin-left: 12px;
+}
+.ic4{
+    color: blue;
+    font-size: 1.5rem;
+}
+.box4 p{
+    color: blue;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+.box4 h4{
+    margin-left: 15px;
+}
+.btn{
+    height: 55px;
+    width: 300px;
+    background-color: rgb(0, 0, 41);
+    color: #fff;
+    border-radius: 30px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 20px;
+}
+.btn:hover{
+    background-color: blue;
+    transition: .5s ease-in-out;
+}
+@media (max-width:600px) {
+    .container{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10rem;
+        background-color: white;
+        /* border: 2px solid black; */
+        /* box-shadow: 20 7px 75px solid black; */
+        padding: 40px 40px;
+    }
+    
+    header .container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* grid-auto-flow:row; */
+    }
+    
+
+}
